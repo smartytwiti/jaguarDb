@@ -6,7 +6,7 @@ This library provides the ability to store information in a Node.js application 
 
 The goal is to provide a quick and dirty way of storing information for small prototypes and unit testing. Do not use this to power your web site or the next eBay.
 
-The API mimics MongoDB’s API to allow for easy migration of applications using jaguarDb to a real database. Also, the fact the MongoDB has a kickass API makes it an great model to follow.
+The API mimics MongoDB’s API to allow for easy migration of applications using jaguarDb to a real database. Also, the fact the MongoDB has a kickass API makes it a great model to follow.
 
 This database does not support transactions or any of the ACID properties. In fact you should not even consider it a database. It's basically a glorified wrapper around JSON.stringfy and JSON.parse tailored to mimic a database. 
 
